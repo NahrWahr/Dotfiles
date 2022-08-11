@@ -1,8 +1,11 @@
-app=/usr/lib/firefox-esr/firefox-esr
+app=krita
 last_user=
-screenshot_dir=file:/home/rnar/Pictures
-action=1
+screenshot_dir=file:///home/rnar
+action=2
 delay=0
 region=3
-show_mouse=1
+show_mouse=0
+last_extension=png
+enable_imgur_upload=true
+show_border=1
 

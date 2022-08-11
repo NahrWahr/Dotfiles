@@ -3950,8 +3950,10 @@ unfunction grml_status_feature
 # End:
 #
 prompt grml-large
-#alias sain='sudo apt 
 alias pluto='julia -t 8 -e "using Pluto; Pluto.run()"'
-export PATH="$PATH:/home/rnar/Gits/julia/julia-1.7.3/bin"
+alias pm='sudo pacman --color=always'
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
+

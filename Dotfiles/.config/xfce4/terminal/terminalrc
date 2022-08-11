@@ -30,8 +30,10 @@ ScrollingLines=5000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0.750000
-
 ColorCursor=#ffffffffffff
 ColorForeground=#ffffffffffff
 ColorBackground=#000000000000
 ColorPalette=#1e1e23232020;#707050505050;#6060b4b48a8a;#dfdfafaf8f8f;#505060607070;#dcdc8c8cc3c3;#8c8cd0d0d3d3;#dcdcdcdccccc;#707090908080;#dcdca3a3a3a3;#c3c3bfbf9f9f;#f0f0dfdfafaf;#9494bfbff3f3;#ecec9393d3d3;#9393e0e0e3e3;#ffffffffffff
+FontName=IBM Plex Mono Bold Italic 12
+MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
+

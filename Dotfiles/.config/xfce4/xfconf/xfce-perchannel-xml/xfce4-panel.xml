@@ -7,16 +7,15 @@
     <value type="int" value="2"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=2;x=2550;y=720"/>
+      <property name="position" type="string" value="p=2;x=2546;y=720"/>
       <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="false"/>
-      <property name="icon-size" type="uint" value="16"/>
-      <property name="size" type="uint" value="24"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="30"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="2"/>
-        <value type="int" value="3"/>
         <value type="int" value="4"/>
+        <value type="int" value="2"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
@@ -24,24 +23,31 @@
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
-        <value type="int" value="14"/>
       </property>
       <property name="mode" type="uint" value="1"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="length-adjust" type="bool" value="true"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=11;x=1239;y=25"/>
-      <property name="size" type="uint" value="41"/>
-      <property name="autohide-behavior" type="uint" value="2"/>
-      <property name="length" type="uint" value="60"/>
+      <property name="position" type="string" value="p=10;x=1283;y=1431"/>
+      <property name="size" type="uint" value="16"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="length" type="uint" value="1"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
-        <value type="int" value="15"/>
-        <value type="int" value="9"/>
+        <value type="int" value="14"/>
+        <value type="int" value="20"/>
+        <value type="int" value="19"/>
+        <value type="int" value="21"/>
       </property>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="icon-size" type="uint" value="12"/>
       <property name="nrows" type="uint" value="1"/>
-      <property name="position-locked" type="bool" value="false"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="50"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -49,56 +55,69 @@
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
     </property>
-    <property name="plugin-3" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-4" type="string" value="pager"/>
     <property name="plugin-5" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+      <property name="style" type="uint" value="1"/>
+      <property name="expand" type="bool" value="true"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="thunar"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="ethernet network connection “ethernet connection 1” active"/>
         <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
       </property>
       <property name="known-items" type="array">
-        <value type="string" value="qBittorrent"/>
+        <value type="string" value="qpwgraph"/>
       </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1201;firefox.instance1244;firefox.instance1319;firefox.instance1336;firefox.instance1541;firefox.instance17153;firefox.instance2565;firefox.instance5122;firefox.instance5192;firefox.instance6175"/>
+      <property name="mpris-players" type="string" value="firefox.instance11276;firefox.instance11994;firefox.instance1211;firefox.instance1252;firefox.instance1290;firefox.instance12992;firefox.instance1816;firefox.instance1911;firefox.instance20058;firefox.instance2127;firefox.instance2732;firefox.instance4347;firefox.instance4606;firefox.instance6729;firefox.instance886;firefox.instance923;firefox.instance942;firefox.instance988"/>
     </property>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-11" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+      <property name="style" type="uint" value="1"/>
+      <property name="expand" type="bool" value="true"/>
     </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="mode" type="uint" value="2"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+      <property name="style" type="uint" value="1"/>
+      <property name="expand" type="bool" value="true"/>
     </property>
-    <property name="plugin-14" type="string" value="actions"/>
     <property name="plugin-7" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-9" type="string" value="separator">
+    <property name="plugin-14" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-format" type="string" value="%a %_d %b, %R"/>
+    </property>
+    <property name="plugin-19" type="string" value="systemload">
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="cpu" type="empty">
+        <property name="label" type="string" value="CPU"/>
+      </property>
+      <property name="memory" type="empty">
+        <property name="label" type="string" value="Mem"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="label" type="string" value="Net"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-15" type="string" value="clock">
-      <property name="mode" type="uint" value="4"/>
-      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
-      <property name="digital-format" type="string" value="%T"/>
-      <property name="show-seconds" type="bool" value="false"/>
-      <property name="show-military" type="bool" value="true"/>
-      <property name="flash-separators" type="bool" value="true"/>
-      <property name="show-meridiem" type="bool" value="false"/>
+    <property name="plugin-21" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
     </property>
   </property>
 </channel>

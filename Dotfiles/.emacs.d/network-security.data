@@ -1,0 +1,5 @@
+;;;; -*- mode: lisp-data -*-
+(
+ (:id "sha1:ccfd2cc2a08c89a9b10969be8c1e926954d53e28" :fingerprints ("sha1:22:ee:50:f7:38:ca:99:89:60:9d:7f:c6:7e:e1:19:57:90:4c:d9:f6") :host "stable.melpa.org:443" :conditions (:unknown-ca :invalid :verify-cert))
+ (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprints ("sha1:22:ee:50:f7:38:ca:99:89:60:9d:7f:c6:7e:e1:19:57:90:4c:d9:f6" "sha1:00:47:48:92:78:49:26:4b:89:cd:f9:0a:ea:8b:f7:3d:e2:4c:d7:85") :host "melpa.org:443" :conditions (:same-cert))
+)

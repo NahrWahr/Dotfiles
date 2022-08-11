@@ -19,15 +19,17 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    '("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default))
- '(package-selected-packages '(company spacemacs-theme)))
+ '(package-selected-packages
+   '(flycheck-clangcheck helm flycheck julia-repl julia-mode company spacemacs-theme)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:family "IBM Plex Mono" :foundry "IBM " :slant normal :weight semi-bold :height 123 :width normal)))))
 
+;; Setting theme
 (load-theme 'spacemacs-dark)
 
 ;; Config for the CompAny(completion any) package
@@ -37,3 +39,13 @@
 (define-key company-active-map (kbd "C-p")
   'company-select-previous)
 (setq company-idle-delay 0.0)
+
+;; Config for Helm
+(helm-mode t)
+(setq completion-styles '(flex))
+(global-set-key (kbd "M-x") 'helm-M-x)
+
+;; Config for Flycheck package
+(global-flycheck-mode t)
+
+(windmove-default-keybindings)
