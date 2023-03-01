@@ -1,0 +1,21 @@
+{
+    "output": {
+        "blocklist": [],
+        "pitch#0": {
+            "bypass": false,
+            "cents": 0,
+            "detector": "Percussive",
+            "formant": "Preserved",
+            "input-gain": 0.0,
+            "mode": "HighConsistency",
+            "octaves": 0,
+            "output-gain": 0.0,
+            "phase": "Laminar",
+            "semitones": -4,
+            "transients": "Mixed"
+        },
+        "plugins_order": [
+            "pitch#0"
+        ]
+    }
+}
